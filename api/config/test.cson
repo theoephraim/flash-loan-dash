@@ -1,0 +1,13 @@
+{
+  NODE_ENV: 'test'
+  LEADEREQ_ENV: 'test'
+
+  RUN_MODES: 'API'
+
+  DB:
+    database: 'flashdash-tests'
+
+  PORT: 3339
+
+  # External services ###################
+}

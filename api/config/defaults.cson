@@ -1,0 +1,62 @@
+{
+  NODE_ENV: 'development'
+  LEADEREQ_ENV: 'local'
+
+  APP_NAME: 'flashdash-api'
+
+  DEPLOY:
+    subdomain: 'api'
+    production_ips: '159.89.139.217'
+    staging_ips: '159.65.103.215'
+
+  # All possible modes enabled for development
+  RUN_MODES: 'API,QUEUE'
+
+  HOST: '0.0.0.0'
+  PORT: 3333
+  API_URL: 'http://localhost:3333'
+  # API_NGROK_URL: 'https://xxxxxx.ngrok.io'  # set in locals to test webhooks
+
+  LOG_LEVEL: 'info'
+
+  API_VERSION:
+    current: '1.0.0'
+    min: '1.0.0'
+
+  BODY_LIMIT: '10mb'
+
+  DB:
+    host: 'localhost'
+    port: 5432
+    database: 'flashdash'
+    username: null
+    password: null
+    debug: false
+
+  CRYPTO:
+    key: '1234567890ABCDEF1234567890ABCDEF' # 32 hex chars
+    cipher_name: 'aes-256-cbc'
+
+  REDIS:
+    host: 'localhost'
+    port: 6379
+
+  BULL: # bull queue admin UI
+    pass: 'bull'
+
+  # RESPONSE_DELAY: 500  # Delay all respoonses - helpful for local UX dev
+
+  ################################
+  # EXTERNAL SERVICES
+  ################################
+  AMBERDATA:
+    api_key: ''
+
+  ETHERSCAN:
+    api_key: ''
+
+  INFURA:
+    network: 'mainnet'
+    project_id: ''
+    project_secret: ''
+}
