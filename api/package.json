@@ -12,7 +12,7 @@
     "@koa/cors": "^3.0.0",
     "@maticnetwork/eth-decoder": "0.0.2",
     "async": "^3.2.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bignumber.js": "^9.0.0",
     "camelcase-keys-deep": "^0.1.0",
     "colors": "^1.4.0",
