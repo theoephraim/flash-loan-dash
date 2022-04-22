@@ -26,7 +26,7 @@
     "koa-router": "^8.0.8",
     "lodash": "^4.17.15",
     "moment-timezone": "^0.5.28",
-    "nconf": "^0.10.0",
+    "nconf": "^0.11.4",
     "nodemon": "^2.0.2",
     "pg": "^7.18.2",
     "promise-delay": "^2.1.0",
